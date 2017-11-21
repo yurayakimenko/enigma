@@ -1,1 +1,53 @@
-/home/yakimenko/.Xresources
+Xcursor.theme: Paper
+
+! special
+*.foreground:   #cebd94
+*.background:   #1f1f1f
+*.cursorColor:  #c0b18b
+
+! black
+*.color0:       #4a3637
+*.color8:       #fcad67
+
+! red
+*.color1:       #d17b49
+*.color9:       #ac5d2f
+
+! green
+*.color2:       #7b8748
+*.color10:      #8a9b47
+
+! yellow
+*.color3:       #af865a
+*.color11:      #8f6840
+
+! blue
+*.color4:       #1f5259
+*.color12:      #5b89d3
+
+! magenta
+*.color5:       #ad7c7f
+*.color13:      #8e4b4d
+
+! cyan
+*.color6:       #2d6575
+*.color14:      #4d9ba8
+
+! white
+*.color7:       #c0b18b
+*.color15:      #d8c38c
+
+URxvt.font: xft:Iosevka Term:size=14, xtf:Dejavu Sans Mono:size=14, xft:Symbola:size=11,\
+	xft:Noto Sans CJK JP:size=11,\
+	xft:Noto Sans CJK SC:size=11,\
+	xft:Noto Sans CJK TC:size=11,\
+	xft:Noto Sans CJK KR:size=11,\
+URxvt.letterSpace: -1
+URxvt.scrollBar: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+urxvt*transparent: true
+urxvt*shading: 50
+urxvt*cursorBlink: true
+urxvt*cursorUnderline: true
