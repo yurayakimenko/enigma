@@ -4,6 +4,8 @@ nohup chromium --no-startup-window &
 
 nohup $HOME/.config/polybar/launch.sh
 
+nohup /usr/bin/kbdd
+
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         0
