@@ -18,8 +18,10 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = Noto Sans:pixelsize=13;3
-font-1 = FontAwesome:size=15;4
+font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=14;3"
 font-2 = siji:pixelsize=18;5
+font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=14;3"
+font-4 = "Font Awesome 5 Brands:pixelsize=14;3"
 ;font-3 = DejaVuSansMono:pixelsize=15;0
 
 modules-left = bspwm xwindow

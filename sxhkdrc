@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# screens
+super + Home
+	~/reconnector.bash	
+
 # systemctl
 super + End ; {s,r,p}
 	systemctl {suspend,reboot,poweroff}

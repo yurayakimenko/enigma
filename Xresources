@@ -1,53 +1,41 @@
-Xcursor.theme: Paper
 
-! special
-*.foreground:   #cebd94
-*.background:   #1f1f1f
-*.cursorColor:  #c0b18b
-
+*.background:   #111111
+*.foreground:   #fcfcfc
+*.cursorColor:  #94B6CC
 ! black
-*.color0:       #4a3637
-*.color8:       #fcad67
-
+*.color0:       #000000
+*.color8:       #000000
 ! red
-*.color1:       #d17b49
-*.color9:       #ac5d2f
-
+*.color1:       #6688AA
+*.color9:       #6688AA
 ! green
-*.color2:       #7b8748
-*.color10:      #8a9b47
-
+*.color2:       #94B6CC
+*.color10:      #94B6CC
 ! yellow
-*.color3:       #af865a
-*.color11:      #8f6840
-
+*.color3:       #4C6E84
+*.color11:      #4C6E84
 ! blue
-*.color4:       #1f5259
-*.color12:      #5b89d3
-
+*.color4:       #6688AA
+*.color12:      #6688AA
 ! magenta
-*.color5:       #ad7c7f
-*.color13:      #8e4b4d
-
+*.color5:       #94B6CC
+*.color13:      #94B6CC
 ! cyan
-*.color6:       #2d6575
-*.color14:      #4d9ba8
-
+*.color6:       #4C6E84
+*.color14:      #4C6E84
 ! white
-*.color7:       #c0b18b
-*.color15:      #d8c38c
+*.color7:       #87875f
+*.color15:      #87875f
 
-URxvt.font: xft:Iosevka Term:size=14, xtf:Dejavu Sans Mono:size=14, xft:Symbola:size=11,\
-	xft:Noto Sans CJK JP:size=11,\
-	xft:Noto Sans CJK SC:size=11,\
-	xft:Noto Sans CJK TC:size=11,\
-	xft:Noto Sans CJK KR:size=11,\
+URxvt.font: xft:Source Code Pro:size=14, xft:Dejavu Sans Mono:size=14, xft:Iosevka Term:size=14, xft:Symbola:size=11,\
+ 	xft:Noto Sans CJK JP:size=11,\
+	xft:Noto Sans CJK SC:size=11
 URxvt.letterSpace: -1
 URxvt.scrollBar: false
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 
-urxvt*transparent: true
-urxvt*shading: 50
+!urxvt*transparent: true
+!urxvt*shading: 30
 urxvt*cursorBlink: true
 urxvt*cursorUnderline: true
