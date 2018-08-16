@@ -1,6 +1,7 @@
 #
 # ~/.bash_profile
 #
+export PYTHONPATH=$PYTHONPATH:/home/yakimenko/Documents/PyProjects
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 export EDITOR=micro

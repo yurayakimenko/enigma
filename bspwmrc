@@ -4,8 +4,6 @@ nohup chromium --no-startup-window &
 
 nohup $HOME/.config/polybar/launch.sh
 
-nohup /usr/bin/kbdd
-
 nohup wmname LG3D &
 
 nohup redshift &

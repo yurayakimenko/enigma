@@ -11,7 +11,7 @@ foreground = #fff
 underline-size = 0
 underline-color = #eee
 
-spacing = 1
+spacing = 0
 padding-left = 0
 padding-right = 0
 module-margin-left = 0 
@@ -36,6 +36,10 @@ wm-restack = bspwm
 
 scroll-up = bspwm-desknext
 scroll-down = bspwm-deskprev
+
+[settings]
+screenchange-reload = true
+monitor-struct = true
 
 ; MODULES
 

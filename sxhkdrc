@@ -31,7 +31,7 @@ XF86MonBrightness{Up,Down}
 
 #printscreen
 Print
-	escrotum -s -C	
+	maim -s | xclip -selection clipboard -t image/png	
 	
 super +	Print
 	escrotum -s
