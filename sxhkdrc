@@ -12,7 +12,7 @@ super + End ; {s,r,p}
 
 # terminal emulator
 super + Return
-	urxvt
+	urxvtc
 
 super + space
 	rofi -modi drun -show drun
@@ -23,7 +23,7 @@ super + Escape
 
 # brightness
 XF86MonBrightness{Up,Down}
-	xbacklight {+,-}5
+	sudo brightlight {-i,-d} 100
 
 #
 # bspwm hotkeys
@@ -38,7 +38,7 @@ super +	Print
 
 #chrome bind
 super + q
-	chromium
+	chromium-browser
 
 # quit bspwm normally
 super + alt + Escape
