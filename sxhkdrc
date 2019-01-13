@@ -23,7 +23,7 @@ super + Escape
 
 # brightness
 XF86MonBrightness{Up,Down}
-	sudo brightlight {-i,-d} 100
+	xbacklight {+,-}5
 
 #
 # bspwm hotkeys
@@ -34,11 +34,11 @@ Print
 	maim -s | xclip -selection clipboard -t image/png	
 	
 super +	Print
-	escrotum -s
+	maim -s
 
 #chrome bind
 super + q
-	chromium-browser
+	chromium
 
 # quit bspwm normally
 super + alt + Escape

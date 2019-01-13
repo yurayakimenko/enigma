@@ -1,6 +1,6 @@
 #! /bin/sh
 
-nohup chromium-browser --no-startup-window &
+nohup chromium --no-startup-window &
 
 nohup wmname LG3D &
 

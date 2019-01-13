@@ -5,7 +5,7 @@ offset-x = 0
 offset-y = 0 
 ;bottom = true
 
-background = #5a000000
+background = #001c23
 foreground = #fff
 
 underline-size = 0
@@ -59,7 +59,7 @@ ws-icon-default = ♟
 format = <label-state> <label-mode>
 
 label-focused = %icon%
-label-focused-background = #88000000
+label-focused-background = #001c23
 label-focused-underline= #ddd
 label-focused-padding = 2
 
@@ -156,7 +156,7 @@ time-alt = %H:%M:%S
 label = %date% %time%
 format =    <label>
 ;format-background = #ddffffff
-format-background = #88000000
+format-background = #001c23
 ;format-foreground = #333
 format-padding = 2;3
 
