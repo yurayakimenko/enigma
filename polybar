@@ -19,9 +19,9 @@ module-margin-right = 0
 
 font-0 = Noto Sans:pixelsize=13;3
 font-1 = Noto Sans CJK JP:size=13;3
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=14;3"
-font-3 = "FontAwesome:style=Solid:pixelsize=14;3"
-font-4 = "Font Awesome 5 Brands:pixelsize=18;3"
+font-2 = Font Awesome 5 Free:style=Regular:pixelsize=14;3
+font-3 = Font Awesome 5 Free:style=Solid:pixelsize=14;3
+font-4 = Font Awesome 5 Brands:pixelsize=18;3
 
 modules-left = bspwm xwindow
 modules-center = 
@@ -85,7 +85,7 @@ label-layout = %layout%
 label-padding = 0
 
 ;label-indicator-padding = 4
-label-indicator-background = #000000
+label-indicator-background = #001c23
 
 [module/memory]
 type = internal/memory

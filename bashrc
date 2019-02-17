@@ -4,7 +4,8 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-export PATH="$PATH:/bin/python3.7"
+export GOPATH=$HOME/go
+export PATH="$PATH:/bin/python3.7:$GOPATH/bin"
 # export PATH="/home/yakimenko/miniconda3/bin:$PATH"
 # export PATH="/bin/python3.7"
 alias ls='ls --color=auto --group-directories-first'
@@ -22,6 +23,8 @@ alias enablepsql='sudo -u postgres psql'
 alias pokerstars='wine "C:\Program Files\PokerStars\PokerStarsUpdate.exe" &'
 alias dbeaver='~/Downloads/dbeaver/dbeaver & disown'
 alias gitpull='git pull origin master'
+alias postgresql='sudo -u postgres psql --pset expanded=auto'
+alias cs='source ~/miniconda3/bin/activate'
 export PATH="$PATH:/opt/mssql-tools/bin"
 alias y='yay'
 alias ...='cd .. && cd ..'
