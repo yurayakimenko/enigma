@@ -1,0 +1,1 @@
+xorg-server xorg-apps xorg-xinit xf86-input-libinput xf86-video-nouveau libxft pulseaudio-alsa xdg-utils xdg-user-dirs bspwm sxhkd rofi rxvt-unicode noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-symbola ttf-ms-fonts ttf-dejavu ntfs-3g chromium ranger xwallpaper htop dtrx lxappearance-gtk3 git ffmpeg imagemagick udisks2 udiskie yay polybar evince
